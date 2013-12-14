@@ -1,6 +1,5 @@
-FROM octohost/ruby-1.8.7p352
+FROM octohost/ruby-1.8
 
-RUN apt-get install libsqlite3-dev
 ADD . /srv/www
 RUN cd /srv/www; bundle install
 
