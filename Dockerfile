@@ -1,7 +1,7 @@
 FROM octohost/ruby-1.8
 
 ADD . /srv/www
-RUN cd /srv/www; bundle install --deployment --without test development
+RUN cd /srv/www; bundle install
 
 EXPOSE 3000
 
