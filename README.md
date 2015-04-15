@@ -13,5 +13,3 @@ cd harp
 git remote add octohost git@ip.address.here:rails2.git
 git push octohost master
 ```
-
-Example site \(usually\) at [http://rails2.octohost.io](http://rails2.octohost.io)
